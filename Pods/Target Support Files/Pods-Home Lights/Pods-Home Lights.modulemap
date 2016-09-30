@@ -1,0 +1,6 @@
+framework module Pods_Home_Lights {
+  umbrella header "Pods-Home Lights-umbrella.h"
+
+  export *
+  module * { export * }
+}

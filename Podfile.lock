@@ -1,0 +1,29 @@
+PODS:
+  - Moscapsule (0.5.2)
+  - OpenSSL-Universal (1.0.1.19)
+  - Typhoon (3.5.1):
+    - Typhoon/no-arc (= 3.5.1)
+  - Typhoon/no-arc (3.5.1)
+
+DEPENDENCIES:
+  - Moscapsule (from `https://github.com/flightonary/Moscapsule.git`)
+  - OpenSSL-Universal (~> 1.0.1.19)
+  - Typhoon
+
+EXTERNAL SOURCES:
+  Moscapsule:
+    :git: https://github.com/flightonary/Moscapsule.git
+
+CHECKOUT OPTIONS:
+  Moscapsule:
+    :commit: fda272f195e35c86740e00fe2163c227ed6383e1
+    :git: https://github.com/flightonary/Moscapsule.git
+
+SPEC CHECKSUMS:
+  Moscapsule: 16da766e698792911aafd11d9a26c6dbc42199f4
+  OpenSSL-Universal: 07489b0316f0f4f53c928e402e2ecbbedf96d93b
+  Typhoon: c0950bb9f2e835eb8a7dc6983160109b6baf2dda
+
+PODFILE CHECKSUM: 8f23eab2f3fcad64d3bed40f8c5c6847b9b44a77
+
+COCOAPODS: 1.1.0.rc.2

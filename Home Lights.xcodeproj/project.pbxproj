@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33008874B3BE9431528F2EDF /* Pods_Home_Lights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644EC7E2A631825F8D3FBC4A /* Pods_Home_Lights.framework */; };
+		871916FB1D752D1D002E71FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871916FA1D752D1D002E71FA /* AppDelegate.swift */; };
+		871917001D752D1D002E71FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871916FE1D752D1D002E71FA /* Main.storyboard */; };
+		871917051D752D1D002E71FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871917041D752D1D002E71FA /* Assets.xcassets */; };
+		871917081D752D1D002E71FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871917061D752D1D002E71FA /* LaunchScreen.storyboard */; };
+		871917131D752D1D002E71FA /* Home_LightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917121D752D1D002E71FA /* Home_LightsTests.swift */; };
+		8719171E1D752D1D002E71FA /* Home_LightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719171D1D752D1D002E71FA /* Home_LightsUITests.swift */; };
+		871917331D75311F002E71FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917321D75311F002E71FA /* SettingsViewController.swift */; };
+		871917371D75312D002E71FA /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917341D75312D002E71FA /* DevicesViewController.swift */; };
+		871917381D75312D002E71FA /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917351D75312D002E71FA /* DeviceTableViewCell.swift */; };
+		871917391D75312D002E71FA /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917361D75312D002E71FA /* DeviceViewController.swift */; };
+		8719173B1D75313D002E71FA /* ContextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719173A1D75313D002E71FA /* ContextsViewController.swift */; };
+		8719173D1D75314B002E71FA /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719173C1D75314B002E71FA /* ColorViewController.swift */; };
+		871917461D753187002E71FA /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917421D753187002E71FA /* AppConfiguration.swift */; };
+		871917471D753187002E71FA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917431D753187002E71FA /* Configuration.swift */; };
+		871917481D753187002E71FA /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917441D753187002E71FA /* Device.swift */; };
+		871917491D753187002E71FA /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917451D753187002E71FA /* LocalStorage.swift */; };
+		8719174E1D753198002E71FA /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719174A1D753198002E71FA /* BrightnessView.swift */; };
+		8719174F1D753198002E71FA /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719174B1D753198002E71FA /* ColorUtils.swift */; };
+		871917501D753198002E71FA /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719174C1D753198002E71FA /* ColorWheel.swift */; };
+		871917511D753198002E71FA /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719174D1D753198002E71FA /* SwiftHSVColorPicker.swift */; };
+		871917531D7531A4002E71FA /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917521D7531A4002E71FA /* Client.swift */; };
+		871917561D7531B1002E71FA /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917541D7531B1002E71FA /* ApplicationAssembly.swift */; };
+		871917571D7531B1002E71FA /* CoreComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871917551D7531B1002E71FA /* CoreComponents.swift */; };
+		874EEECB1D75414F009AA081 /* Home_Lights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 874EEEC81D75414F009AA081 /* Home_Lights.xcdatamodeld */; };
+		874F90AA1D79506300A8AA52 /* ContextEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F90A91D79506300A8AA52 /* ContextEntry.swift */; };
+		8766CE5C1D7685DA0074F50E /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8766CE5B1D7685DA0074F50E /* Context.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8719170F1D752D1D002E71FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871916EF1D752D1D002E71FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871916F61D752D1D002E71FA;
+			remoteInfo = "Home Lights";
+		};
+		8719171A1D752D1D002E71FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871916EF1D752D1D002E71FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871916F61D752D1D002E71FA;
+			remoteInfo = "Home Lights";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644EC7E2A631825F8D3FBC4A /* Pods_Home_Lights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Lights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871916F71D752D1D002E71FA /* Home Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871916FA1D752D1D002E71FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		871916FF1D752D1D002E71FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		871917041D752D1D002E71FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		871917071D752D1D002E71FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		871917091D752D1D002E71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8719170E1D752D1D002E71FA /* Home LightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home LightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871917121D752D1D002E71FA /* Home_LightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_LightsTests.swift; sourceTree = "<group>"; };
+		871917141D752D1D002E71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871917191D752D1D002E71FA /* Home LightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home LightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8719171D1D752D1D002E71FA /* Home_LightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_LightsUITests.swift; sourceTree = "<group>"; };
+		8719171F1D752D1D002E71FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871917321D75311F002E71FA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = UserInterface/Settings/Host/SettingsViewController.swift; sourceTree = "<group>"; };
+		871917341D75312D002E71FA /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DevicesViewController.swift; path = UserInterface/Settings/Devices/DevicesViewController.swift; sourceTree = "<group>"; };
+		871917351D75312D002E71FA /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceTableViewCell.swift; path = UserInterface/Settings/Devices/DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		871917361D75312D002E71FA /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceViewController.swift; path = UserInterface/Settings/Devices/DeviceViewController.swift; sourceTree = "<group>"; };
+		8719173A1D75313D002E71FA /* ContextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContextsViewController.swift; path = UserInterface/Settings/Context/ContextsViewController.swift; sourceTree = "<group>"; };
+		8719173C1D75314B002E71FA /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorViewController.swift; path = UserInterface/Color/ColorViewController.swift; sourceTree = "<group>"; };
+		871917421D753187002E71FA /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfiguration.swift; path = BusinessLogic/Configuration/AppConfiguration.swift; sourceTree = "<group>"; };
+		871917431D753187002E71FA /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = BusinessLogic/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		871917441D753187002E71FA /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = BusinessLogic/Configuration/Device.swift; sourceTree = "<group>"; };
+		871917451D753187002E71FA /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalStorage.swift; path = BusinessLogic/Configuration/LocalStorage.swift; sourceTree = "<group>"; };
+		8719174A1D753198002E71FA /* BrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrightnessView.swift; path = BusinessLogic/ColorPicker/BrightnessView.swift; sourceTree = "<group>"; };
+		8719174B1D753198002E71FA /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorUtils.swift; path = BusinessLogic/ColorPicker/ColorUtils.swift; sourceTree = "<group>"; };
+		8719174C1D753198002E71FA /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorWheel.swift; path = BusinessLogic/ColorPicker/ColorWheel.swift; sourceTree = "<group>"; };
+		8719174D1D753198002E71FA /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftHSVColorPicker.swift; path = BusinessLogic/ColorPicker/SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
+		871917521D7531A4002E71FA /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Client.swift; path = BusinessLogic/Client/Client.swift; sourceTree = "<group>"; };
+		871917541D7531B1002E71FA /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationAssembly.swift; path = BusinessLogic/Assembly/ApplicationAssembly.swift; sourceTree = "<group>"; };
+		871917551D7531B1002E71FA /* CoreComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreComponents.swift; path = BusinessLogic/Assembly/CoreComponents.swift; sourceTree = "<group>"; };
+		874EEEC91D75414F009AA081 /* Home_Lights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Home_Lights.xcdatamodel; sourceTree = "<group>"; };
+		874EEECA1D75414F009AA081 /* HomeLights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeLights.xcdatamodel; sourceTree = "<group>"; };
+		874F90A91D79506300A8AA52 /* ContextEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContextEntry.swift; path = BusinessLogic/Configuration/ContextEntry.swift; sourceTree = "<group>"; };
+		8766CE5B1D7685DA0074F50E /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Context.swift; path = BusinessLogic/Configuration/Context.swift; sourceTree = "<group>"; };
+		880CAD1A419296BF42ABD73A /* Pods-Home Lights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Lights.release.xcconfig"; path = "Pods/Target Support Files/Pods-Home Lights/Pods-Home Lights.release.xcconfig"; sourceTree = "<group>"; };
+		E47348093ED6DC5260C3FA59 /* Pods-Home Lights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Lights.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Home Lights/Pods-Home Lights.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871916F41D752D1D002E71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33008874B3BE9431528F2EDF /* Pods_Home_Lights.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8719170B1D752D1D002E71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871917161D752D1D002E71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7EE1113997391DACB7723B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644EC7E2A631825F8D3FBC4A /* Pods_Home_Lights.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		871916EE1D752D1D002E71FA = {
+			isa = PBXGroup;
+			children = (
+				871916F91D752D1D002E71FA /* Home Lights */,
+				871917111D752D1D002E71FA /* Home LightsTests */,
+				8719171C1D752D1D002E71FA /* Home LightsUITests */,
+				871916F81D752D1D002E71FA /* Products */,
+				CAEDA3556C5B1E0FB4D7917C /* Pods */,
+				2A7EE1113997391DACB7723B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		871916F81D752D1D002E71FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871916F71D752D1D002E71FA /* Home Lights.app */,
+				8719170E1D752D1D002E71FA /* Home LightsTests.xctest */,
+				871917191D752D1D002E71FA /* Home LightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871916F91D752D1D002E71FA /* Home Lights */ = {
+			isa = PBXGroup;
+			children = (
+				8719172C1D753093002E71FA /* UserInterface */,
+				8719172B1D753087002E71FA /* BusinessLogic */,
+			);
+			path = "Home Lights";
+			sourceTree = "<group>";
+		};
+		871917111D752D1D002E71FA /* Home LightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				871917121D752D1D002E71FA /* Home_LightsTests.swift */,
+				871917141D752D1D002E71FA /* Info.plist */,
+			);
+			path = "Home LightsTests";
+			sourceTree = "<group>";
+		};
+		8719171C1D752D1D002E71FA /* Home LightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8719171D1D752D1D002E71FA /* Home_LightsUITests.swift */,
+				8719171F1D752D1D002E71FA /* Info.plist */,
+			);
+			path = "Home LightsUITests";
+			sourceTree = "<group>";
+		};
+		8719172B1D753087002E71FA /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				874F90A81D79504000A8AA52 /* Context */,
+				871917411D753174002E71FA /* Configuration */,
+				871917401D753167002E71FA /* ColorPicker */,
+				8719173F1D75315E002E71FA /* Client */,
+				8719173E1D753152002E71FA /* Assembly */,
+				874EEEC81D75414F009AA081 /* Home_Lights.xcdatamodeld */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		8719172C1D753093002E71FA /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				871917061D752D1D002E71FA /* LaunchScreen.storyboard */,
+				871916FE1D752D1D002E71FA /* Main.storyboard */,
+				8719172E1D7530E4002E71FA /* Settings */,
+				8719172D1D7530D6002E71FA /* Color */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		8719172D1D7530D6002E71FA /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				8719173C1D75314B002E71FA /* ColorViewController.swift */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		8719172E1D7530E4002E71FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				871917311D753104002E71FA /* Host */,
+				871917301D7530FB002E71FA /* Devices */,
+				8719172F1D7530F1002E71FA /* Context */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8719172F1D7530F1002E71FA /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				8719173A1D75313D002E71FA /* ContextsViewController.swift */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		871917301D7530FB002E71FA /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				871917341D75312D002E71FA /* DevicesViewController.swift */,
+				871917351D75312D002E71FA /* DeviceTableViewCell.swift */,
+				871917361D75312D002E71FA /* DeviceViewController.swift */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		871917311D753104002E71FA /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				871917321D75311F002E71FA /* SettingsViewController.swift */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		8719173E1D753152002E71FA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				871917041D752D1D002E71FA /* Assets.xcassets */,
+				871917091D752D1D002E71FA /* Info.plist */,
+				871916FA1D752D1D002E71FA /* AppDelegate.swift */,
+				871917541D7531B1002E71FA /* ApplicationAssembly.swift */,
+				871917551D7531B1002E71FA /* CoreComponents.swift */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		8719173F1D75315E002E71FA /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				871917521D7531A4002E71FA /* Client.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		871917401D753167002E71FA /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8719174A1D753198002E71FA /* BrightnessView.swift */,
+				8719174B1D753198002E71FA /* ColorUtils.swift */,
+				8719174C1D753198002E71FA /* ColorWheel.swift */,
+				8719174D1D753198002E71FA /* SwiftHSVColorPicker.swift */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		871917411D753174002E71FA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				871917421D753187002E71FA /* AppConfiguration.swift */,
+				871917431D753187002E71FA /* Configuration.swift */,
+				871917441D753187002E71FA /* Device.swift */,
+				871917451D753187002E71FA /* LocalStorage.swift */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		874F90A81D79504000A8AA52 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				8766CE5B1D7685DA0074F50E /* Context.swift */,
+				874F90A91D79506300A8AA52 /* ContextEntry.swift */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		CAEDA3556C5B1E0FB4D7917C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E47348093ED6DC5260C3FA59 /* Pods-Home Lights.debug.xcconfig */,
+				880CAD1A419296BF42ABD73A /* Pods-Home Lights.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871916F61D752D1D002E71FA /* Home Lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871917221D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home Lights" */;
+			buildPhases = (
+				2C2067793A42E23D4D41FBEA /* [CP] Check Pods Manifest.lock */,
+				871916F31D752D1D002E71FA /* Sources */,
+				871916F41D752D1D002E71FA /* Frameworks */,
+				871916F51D752D1D002E71FA /* Resources */,
+				E374C020D80C97588F915A29 /* [CP] Embed Pods Frameworks */,
+				78B45DAFB1ADBC4CB9C64793 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Lights";
+			productName = "Home Lights";
+			productReference = 871916F71D752D1D002E71FA /* Home Lights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8719170D1D752D1D002E71FA /* Home LightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871917251D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home LightsTests" */;
+			buildPhases = (
+				8719170A1D752D1D002E71FA /* Sources */,
+				8719170B1D752D1D002E71FA /* Frameworks */,
+				8719170C1D752D1D002E71FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				871917101D752D1D002E71FA /* PBXTargetDependency */,
+			);
+			name = "Home LightsTests";
+			productName = "Home LightsTests";
+			productReference = 8719170E1D752D1D002E71FA /* Home LightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		871917181D752D1D002E71FA /* Home LightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871917281D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home LightsUITests" */;
+			buildPhases = (
+				871917151D752D1D002E71FA /* Sources */,
+				871917161D752D1D002E71FA /* Frameworks */,
+				871917171D752D1D002E71FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8719171B1D752D1D002E71FA /* PBXTargetDependency */,
+			);
+			name = "Home LightsUITests";
+			productName = "Home LightsUITests";
+			productReference = 871917191D752D1D002E71FA /* Home LightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		871916EF1D752D1D002E71FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Bartosz Rachwal";
+				TargetAttributes = {
+					871916F61D752D1D002E71FA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28K55K526P;
+						LastSwiftMigration = 0800;
+					};
+					8719170D1D752D1D002E71FA = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 871916F61D752D1D002E71FA;
+					};
+					871917181D752D1D002E71FA = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 871916F61D752D1D002E71FA;
+					};
+				};
+			};
+			buildConfigurationList = 871916F21D752D1D002E71FA /* Build configuration list for PBXProject "Home Lights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 871916EE1D752D1D002E71FA;
+			productRefGroup = 871916F81D752D1D002E71FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871916F61D752D1D002E71FA /* Home Lights */,
+				8719170D1D752D1D002E71FA /* Home LightsTests */,
+				871917181D752D1D002E71FA /* Home LightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871916F51D752D1D002E71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871917081D752D1D002E71FA /* LaunchScreen.storyboard in Resources */,
+				871917051D752D1D002E71FA /* Assets.xcassets in Resources */,
+				871917001D752D1D002E71FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8719170C1D752D1D002E71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871917171D752D1D002E71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C2067793A42E23D4D41FBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78B45DAFB1ADBC4CB9C64793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Home Lights/Pods-Home Lights-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E374C020D80C97588F915A29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Home Lights/Pods-Home Lights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		871916F31D752D1D002E71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871917481D753187002E71FA /* Device.swift in Sources */,
+				8719174F1D753198002E71FA /* ColorUtils.swift in Sources */,
+				871917461D753187002E71FA /* AppConfiguration.swift in Sources */,
+				874EEECB1D75414F009AA081 /* Home_Lights.xcdatamodeld in Sources */,
+				871917381D75312D002E71FA /* DeviceTableViewCell.swift in Sources */,
+				871917371D75312D002E71FA /* DevicesViewController.swift in Sources */,
+				8719173D1D75314B002E71FA /* ColorViewController.swift in Sources */,
+				871917391D75312D002E71FA /* DeviceViewController.swift in Sources */,
+				871917471D753187002E71FA /* Configuration.swift in Sources */,
+				871916FB1D752D1D002E71FA /* AppDelegate.swift in Sources */,
+				871917491D753187002E71FA /* LocalStorage.swift in Sources */,
+				874F90AA1D79506300A8AA52 /* ContextEntry.swift in Sources */,
+				871917531D7531A4002E71FA /* Client.swift in Sources */,
+				871917331D75311F002E71FA /* SettingsViewController.swift in Sources */,
+				8766CE5C1D7685DA0074F50E /* Context.swift in Sources */,
+				8719174E1D753198002E71FA /* BrightnessView.swift in Sources */,
+				871917571D7531B1002E71FA /* CoreComponents.swift in Sources */,
+				8719173B1D75313D002E71FA /* ContextsViewController.swift in Sources */,
+				871917501D753198002E71FA /* ColorWheel.swift in Sources */,
+				871917561D7531B1002E71FA /* ApplicationAssembly.swift in Sources */,
+				871917511D753198002E71FA /* SwiftHSVColorPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8719170A1D752D1D002E71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871917131D752D1D002E71FA /* Home_LightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871917151D752D1D002E71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8719171E1D752D1D002E71FA /* Home_LightsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		871917101D752D1D002E71FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 871916F61D752D1D002E71FA /* Home Lights */;
+			targetProxy = 8719170F1D752D1D002E71FA /* PBXContainerItemProxy */;
+		};
+		8719171B1D752D1D002E71FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 871916F61D752D1D002E71FA /* Home Lights */;
+			targetProxy = 8719171A1D752D1D002E71FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		871916FE1D752D1D002E71FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871916FF1D752D1D002E71FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		871917061D752D1D002E71FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871917071D752D1D002E71FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		871917201D752D1D002E71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		871917211D752D1D002E71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871917231D752D1D002E71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47348093ED6DC5260C3FA59 /* Pods-Home Lights.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Home Lights/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-Lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		871917241D752D1D002E71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880CAD1A419296BF42ABD73A /* Pods-Home Lights.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Home Lights/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-Lights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		871917261D752D1D002E71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Home LightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-LightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Lights.app/Home Lights";
+			};
+			name = Debug;
+		};
+		871917271D752D1D002E71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Home LightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-LightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Lights.app/Home Lights";
+			};
+			name = Release;
+		};
+		871917291D752D1D002E71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Home LightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-LightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Home Lights";
+			};
+			name = Debug;
+		};
+		8719172A1D752D1D002E71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Home LightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BRCode.Home-LightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Home Lights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		871916F21D752D1D002E71FA /* Build configuration list for PBXProject "Home Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871917201D752D1D002E71FA /* Debug */,
+				871917211D752D1D002E71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871917221D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871917231D752D1D002E71FA /* Debug */,
+				871917241D752D1D002E71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871917251D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home LightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871917261D752D1D002E71FA /* Debug */,
+				871917271D752D1D002E71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871917281D752D1D002E71FA /* Build configuration list for PBXNativeTarget "Home LightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871917291D752D1D002E71FA /* Debug */,
+				8719172A1D752D1D002E71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		874EEEC81D75414F009AA081 /* Home_Lights.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				874EEEC91D75414F009AA081 /* Home_Lights.xcdatamodel */,
+				874EEECA1D75414F009AA081 /* HomeLights.xcdatamodel */,
+			);
+			currentVersion = 874EEEC91D75414F009AA081 /* Home_Lights.xcdatamodel */;
+			path = Home_Lights.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 871916EF1D752D1D002E71FA /* Project object */;
+}
